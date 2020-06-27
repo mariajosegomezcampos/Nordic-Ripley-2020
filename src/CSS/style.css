@@ -1,0 +1,257 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* START NAV */
+
+.nabvar-section-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+   justify-content: space-evenly;
+    flex-wrap: wrap;
+  
+}
+
+ .nabvar-section-links ul li a{
+color: #505D68;
+text-decoration: none;
+font-size: 1.2rem;
+justify-content: center;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+
+.nabvar-section-links ul li{
+  
+    padding: 15px;
+    text-align: center;
+  
+    
+}
+.nabvar-section-links ul li a span{
+    font-size: .9rem;
+    display: block;
+    font-weight: normal;
+    text-transform:none ;
+}
+.nabvar-section-links .link-light-grey{
+    background-color: #A5B0BA;
+}
+.nabvar-section-links .link-dark-gray{
+    background-color:#979797;
+}
+/* END NAV */
+
+.section-banner-main{
+    margin: 0px;
+   max-width: 100%;
+    height: 400px;
+    background-image: url(../assets/images/IMG_5434FlexNordic2020.png);
+}
+.section-banner-main img{
+    width: 100px;
+}
+.content-text-Description  {
+
+    width: 100%;
+    font-size: 18px;
+    line-height: 25px;
+    justify-content: center;
+    text-align: center;
+    color: #505D68;
+    padding: 50px 16% 50px;;
+    
+}
+.section-titulo{
+    display: flex;
+    justify-content: center;
+}
+.section-titulo h3{
+   
+font-family: Nunito;
+font-style: normal;
+font-weight: 800;
+font-size: 30px;
+line-height: 68px;
+color: #373737;
+}
+.section-details-element{
+    display: flex;
+    flex-direction: column;
+}
+.section-details-element h3{
+  
+font-style: normal;
+font-weight: bold;
+margin-right: 30%;
+text-align: center;
+color: #8B9DAE;
+}
+.section-details-element button{
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 10px 5px ;
+ 
+   }
+
+   .content-seals {
+       background-color: white;
+       border-right: solid 1px grey;
+   }
+   .section-seals{
+       display:flex ;
+       flex-direction: row;
+   }
+   .content-sealss{
+    background-color: white;
+    border-right: solid 1px grey;
+   }
+   .content-sealss img{
+       margin-top: 10px;
+   }
+   .content-seals-3{
+       border: none;
+   }
+.section-quality-details{
+   
+    border-right: solid 2px grey;
+}
+.content-description{
+display: flex;
+flex-direction: row;
+max-width: 60%;
+}
+.content-description p{
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 10px;
+line-height: 16px;
+text-transform: uppercase;
+color: #4D4D4D;
+}
+ .section-image-mattress img{
+    margin-top: 60px;
+    height: 200px;
+} 
+.content-description img{
+ width: 30%;
+height: 38px;
+margin-right: 10px;
+}
+.container-description-product{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.items{
+    display: flex;
+}
+.btn-details-white{
+    color: #4D4D4D;
+    background-color: white;
+    border: solid 1px black;
+    padding: 10px 10px;
+}
+.btn-details-crimson{
+    color: white;
+    background-color: crimson;
+    border: none;
+    padding: 10px 30px;
+
+}
+
+
+.detalles-escandinava-plus-items p{
+width: 20px;    
+height:64px ;    
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 13px;
+line-height: 16px;
+text-transform: uppercase;
+
+}
+.section-gallery{
+    background-color:#97979724 ;
+    text-align: center;
+}
+.section-imagen-cama-principal img{
+    max-width: 100%;
+  
+  
+
+} 
+.gallery-bed{
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-evenly;
+  
+}
+.section-gallery h3{
+    font-size: 45px;
+    font-weight: 200px;
+    margin-top: 50px;
+    padding: 30px 0px 0px;
+}
+.section-gallery img{
+    margin-bottom: 20px;
+}
+.btn-gallery-bed{
+    text-align: center;
+    color: white;
+    background-color: crimson;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+@media screen and (min-width:400px){
+    .nabvar-section-links ul{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .nabvar-section-links ul li{
+        flex: 0 1 50%;
+    }
+
+}
+@media screen and (min-width:768px){
+   
+    .nabvar-section-links ul li{
+        flex: 1;
+    }
+
+    .section-details-element{
+      
+        
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 60px;
+
+    }
+ 
+    .section-image-mattress{
+        
+        margin-top: 15px;
+        max-width: 50%;
+    } 
+
+}
