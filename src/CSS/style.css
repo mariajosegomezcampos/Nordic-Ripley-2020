@@ -230,6 +230,89 @@ color: #8B9DAE;
 .container-oslo , .container-nordica , .container-estocolmo{
     padding: 3em 0 1em;
 }
+.container-items-end {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+   justify-content: space-evenly;
+   padding: 0.6rem 1.2rem;
+}
+.tex-description-items , .tex-description-items4{
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #373737;
+    padding: 1em 0;
+    max-width: 300px;
+    text-align: center;
+    margin: 0 2em;
+    border-bottom: 1px solid #979797;
+}
+.tex-description-items4{
+    max-width: 300px none;
+    max-width: 180px;
+    margin-left: 25%;
+}
+
+.img-description{
+    display: flex;
+    flex-direction: column;
+}
+.img-description img{
+    margin: 1em 0 0;
+    max-width: 150px;
+    margin-left: 30%;
+}
+.tex-description-items-title, .tex-description-items-title-light{
+    font-weight: 600;
+    font-size: 18px;
+    font-family: nunito;
+    text-transform: uppercase;
+    color: #3F3F3F;
+    background-color: #A5B0BA;
+    width: 320px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tex-description-items-title-light {
+    background-color: #A5B0BA none;
+    background-color: #BCC6CF;
+  
+}
+
+.content-description-items ul{
+    list-style: none;
+    padding: 1.5em 0;
+}
+.content-description-items ul li{
+    font-size: 16px;
+    text-align: center;
+    color: #373737;
+}
+.content-description-items a{
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    width: 185px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #EA2142;
+    background-color: #EA2142;
+    color: #FFF;
+    text-decoration: none;
+   
+}
+.to-buy{
+    margin-bottom: 1.4rem;
+}
 
 @media screen and (min-width:400px){
     .nabvar-section-links ul{
@@ -237,8 +320,10 @@ color: #8B9DAE;
       flex-wrap: wrap;
     }
     .nabvar-section-links ul li{
-        flex: 0 1 50%;
+     flex: 1 100%;
     }
+
+    
 
 }
 @media screen and (min-width:768px){
