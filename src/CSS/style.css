@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Nunito');
 
 *{
@@ -314,7 +315,7 @@ color: #8B9DAE;
     margin-bottom: 1.4rem;
 }
 
-@media screen and (min-width:400px){
+@media screen and (min-width:320px){
     .nabvar-section-links ul{
       display: flex;
       flex-wrap: wrap;
