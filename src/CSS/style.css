@@ -58,12 +58,12 @@ text-transform: uppercase;
     background-color:#A5B0BA;
 }
 /* END NAV */
+.nabvar-section-links{
+    margin-top: -4px;
+}
 
-.section-banner-main img{
-margin: 0px;
-max-width: 100%;
-display: block;
-
+.section-slider-mobile{
+    display: none;
 }
 
 .content-text-Description  {
@@ -312,6 +312,10 @@ color: #8B9DAE;
     margin-bottom: 1.4rem;
 }
 
+
+
+
+
 @media screen and (min-width:360px) and (max-width: 767px){
     .nabvar-section-links ul{
       display: flex;
@@ -338,7 +342,7 @@ color: #8B9DAE;
         border: none;
     }
 
-    
+
 
 }
 @media screen and (min-width:768px){
