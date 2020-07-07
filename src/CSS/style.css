@@ -124,14 +124,12 @@ color: #8B9DAE;
 }
 .section-details-element button{
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 0.8rem;
     border-radius: 10px;
     margin: 0px 8px ;
  }
 
- 
- 
 .section-quality-details{
  display: flex;
 flex-direction: column;
@@ -152,33 +150,26 @@ border-right: 3px solid #979797;
 
 }
 .container-description-product{
-  
     display: flex;
     flex-direction: column;
     align-items: center;
   
-    
-
 }
 
 .container-description-product h3{
 
-   
     font-family: 'nunito';
-    font-weight: 600;
+    font-weight: 500;
     font-size: 24px;
     line-height: 30px;
     text-align: center;
     color: #8B9DAE;
-
 
 }
 
 .btn-description-product{
     display: flex;
     justify-content: space-evenly;
-    
-    
     
 }
 
@@ -336,9 +327,6 @@ border-right: 3px solid #979797;
 }
 
 
-
-
-
 @media screen and (min-width:320px) and (max-width: 767px){
 
     .mobile{
@@ -367,9 +355,7 @@ border-right: 3px solid #979797;
         padding: 2em;
     
     }
-    .btn-description-product{
-        margin-left: 35px;
-    }
+   
     .btn-description-product button{
      
         margin: 1em 0;
@@ -394,14 +380,20 @@ border-right: 3px solid #979797;
 }
 
 .gallery-bed img {
-    width: 100%;
     margin-bottom: 1em;
 }
-.tex-description-items-title¨{
-    justify-content: center;
-    width: 321px;
+.tex-description-items-title {
+    justify-content: space-around;
+    width: inherit;
 }
- 
+.box img {
+    height: 300px;
+    max-width: 260%;
+    display: block;
+    margin-bottom: 50px;
+}
+
+
 }
 
 @media screen and (min-width:768px){
@@ -411,8 +403,6 @@ border-right: 3px solid #979797;
     }
 
     .section-details-element{
-
-
         flex-direction: row;
         justify-content: center;
         margin-top: 60px;
@@ -420,7 +410,6 @@ border-right: 3px solid #979797;
     }
 
     .section-image-mattress{
-
         display: flex;
         align-items: center;
     }
