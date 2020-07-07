@@ -288,7 +288,7 @@ border-right: 3px solid #979797;
     font-family: nunito;
     text-transform: uppercase;
     color: #3F3F3F;
-    background-color: #A5B0BA;
+   
     width: 310px;
     height: 60px;
     display: flex;
@@ -299,6 +299,10 @@ border-right: 3px solid #979797;
   
     background-color: #BCC6CF;
   
+}
+.dark{
+    background-color: #A5B0BA;
+
 }
 
 .content-description-items ul{
