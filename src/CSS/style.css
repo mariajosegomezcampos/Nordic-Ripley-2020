@@ -282,7 +282,7 @@ border-right: 3px solid #979797;
     max-width: 150px;
     margin-left: 30%;
 }
-.tex-description-items-title, .tex-description-items-title-light{
+.tex-description-items-title {
     font-weight: 600;
     font-size: 18px;
     font-family: nunito;
@@ -295,8 +295,8 @@ border-right: 3px solid #979797;
     justify-content: center;
     align-items: center;
 }
-.tex-description-items-title-light {
-    background-color: #A5B0BA none;
+.light {
+  
     background-color: #BCC6CF;
   
 }
@@ -335,7 +335,7 @@ border-right: 3px solid #979797;
 
 
 
-@media screen and (min-width:360px) and (max-width: 767px){
+@media screen and (min-width:320px) and (max-width: 767px){
 
     .mobile{
         display: block;
@@ -392,6 +392,10 @@ border-right: 3px solid #979797;
 .gallery-bed img {
     width: 100%;
     margin-bottom: 1em;
+}
+.tex-description-items-title¨{
+    justify-content: center;
+    width: 321px;
 }
  
 }
